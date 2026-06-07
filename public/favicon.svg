@@ -1,0 +1,28 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="24" cy="24" r="22" stroke="#000" stroke-width="1.25"/>
+  <circle cx="24" cy="24" r="6" stroke="#000" stroke-width="1.25"/>
+  <line x1="31.000" y1="24.000" x2="45.000" y2="24.000" stroke="#000" stroke-width="0.6"/>
+  <line x1="30.761" y1="25.812" x2="44.284" y2="29.435" stroke="#000" stroke-width="0.6"/>
+  <line x1="30.062" y1="27.500" x2="42.187" y2="34.500" stroke="#000" stroke-width="0.6"/>
+  <line x1="28.950" y1="28.950" x2="38.849" y2="38.849" stroke="#000" stroke-width="0.6"/>
+  <line x1="27.500" y1="30.062" x2="34.500" y2="42.187" stroke="#000" stroke-width="0.6"/>
+  <line x1="25.812" y1="30.761" x2="29.435" y2="44.284" stroke="#000" stroke-width="0.6"/>
+  <line x1="24.000" y1="31.000" x2="24.000" y2="45.000" stroke="#000" stroke-width="0.6"/>
+  <line x1="22.188" y1="30.761" x2="18.565" y2="44.284" stroke="#000" stroke-width="0.6"/>
+  <line x1="20.500" y1="30.062" x2="13.500" y2="42.187" stroke="#000" stroke-width="0.6"/>
+  <line x1="19.050" y1="28.950" x2="9.151" y2="38.849" stroke="#000" stroke-width="0.6"/>
+  <line x1="17.938" y1="27.500" x2="5.813" y2="34.500" stroke="#000" stroke-width="0.6"/>
+  <line x1="17.239" y1="25.812" x2="3.716" y2="29.435" stroke="#000" stroke-width="0.6"/>
+  <line x1="17.000" y1="24.000" x2="3.000" y2="24.000" stroke="#000" stroke-width="0.6"/>
+  <line x1="17.239" y1="22.188" x2="3.716" y2="18.565" stroke="#000" stroke-width="0.6"/>
+  <line x1="17.938" y1="20.500" x2="5.813" y2="13.500" stroke="#000" stroke-width="0.6"/>
+  <line x1="19.050" y1="19.050" x2="9.151" y2="9.151" stroke="#000" stroke-width="0.6"/>
+  <line x1="20.500" y1="17.938" x2="13.500" y2="5.813" stroke="#000" stroke-width="0.6"/>
+  <line x1="22.188" y1="17.239" x2="18.565" y2="3.716" stroke="#000" stroke-width="0.6"/>
+  <line x1="24.000" y1="17.000" x2="24.000" y2="3.000" stroke="#000" stroke-width="0.6"/>
+  <line x1="25.812" y1="17.239" x2="29.435" y2="3.716" stroke="#000" stroke-width="0.6"/>
+  <line x1="27.500" y1="17.938" x2="34.500" y2="5.813" stroke="#000" stroke-width="0.6"/>
+  <line x1="28.950" y1="19.050" x2="38.849" y2="9.151" stroke="#000" stroke-width="0.6"/>
+  <line x1="30.062" y1="20.500" x2="42.187" y2="13.500" stroke="#000" stroke-width="0.6"/>
+  <line x1="30.761" y1="22.188" x2="44.284" y2="18.565" stroke="#000" stroke-width="0.6"/>
+</svg>

@@ -1,0 +1,142 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-saffron: var(--saffron);
+  --color-ink: var(--ink);
+  --color-ivory: var(--ivory);
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+:root {
+  --radius: 0.25rem;
+
+  /* Ivory + deep navy ink + saffron accent */
+  --background: oklch(0.985 0.008 85);          /* warm ivory */
+  --foreground: oklch(0.18 0.03 250);           /* deep navy ink */
+  --ivory: oklch(0.985 0.008 85);
+  --ink: oklch(0.18 0.03 250);
+  --saffron: oklch(0.72 0.18 55);               /* saffron */
+
+  --card: oklch(0.99 0.005 85);
+  --card-foreground: var(--ink);
+  --popover: var(--card);
+  --popover-foreground: var(--ink);
+
+  --primary: oklch(0.18 0.03 250);
+  --primary-foreground: oklch(0.985 0.008 85);
+
+  --secondary: oklch(0.94 0.012 85);
+  --secondary-foreground: var(--ink);
+
+  --muted: oklch(0.94 0.012 85);
+  --muted-foreground: oklch(0.45 0.02 250);
+
+  --accent: oklch(0.72 0.18 55);
+  --accent-foreground: oklch(0.99 0.005 85);
+
+  --destructive: oklch(0.55 0.22 27);
+  --destructive-foreground: oklch(0.99 0.005 85);
+
+  --border: oklch(0.88 0.012 85);
+  --input: oklch(0.88 0.012 85);
+  --ring: oklch(0.72 0.18 55);
+
+  --chart-1: oklch(0.72 0.18 55);
+  --chart-2: oklch(0.45 0.12 160);
+  --chart-3: oklch(0.18 0.03 250);
+  --chart-4: oklch(0.6 0.08 85);
+  --chart-5: oklch(0.4 0.05 250);
+
+  --sidebar: var(--ivory);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--ink);
+  --sidebar-primary-foreground: var(--ivory);
+  --sidebar-accent: var(--secondary);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
+}
+
+.dark {
+  --background: oklch(0.16 0.025 250);
+  --foreground: oklch(0.97 0.008 85);
+  --card: oklch(0.2 0.025 250);
+  --card-foreground: oklch(0.97 0.008 85);
+  --popover: oklch(0.2 0.025 250);
+  --popover-foreground: oklch(0.97 0.008 85);
+  --primary: oklch(0.97 0.008 85);
+  --primary-foreground: oklch(0.16 0.025 250);
+  --secondary: oklch(0.25 0.025 250);
+  --secondary-foreground: oklch(0.97 0.008 85);
+  --muted: oklch(0.25 0.025 250);
+  --muted-foreground: oklch(0.7 0.02 85);
+  --accent: oklch(0.72 0.18 55);
+  --accent-foreground: oklch(0.16 0.025 250);
+  --destructive: oklch(0.65 0.22 27);
+  --destructive-foreground: oklch(0.97 0.008 85);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.72 0.18 55);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--saffron);
+  }
+
+  .rule {
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--border) 20%, var(--border) 80%, transparent);
+  }
+}
