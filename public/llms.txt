@@ -4,6 +4,28 @@
 
 The Kartavya Janta Party (KJP) is a movement of builders, scholars, and citizens publishing policy whitepapers and a manifesto centered on duty-bound citizenship, national resilience, and a knowledge economy.
 
+Alternate names: KJP, Kartavya Janta Party, Cockroach Janta Party (satirical reference to those who hide from responsibility), Anti Cockroach Janta Party, CJP.
+
+Slogan: Duty Over Rights. Solutions Over Rants.
+
 ## Pages
 
-- [Home](/): Vision, manifesto, membership, and whitepapers overview.
+- [Home](https://kartavyajantaparty.com/): Vision, manifesto, membership, and whitepapers overview.
+- [Vision](https://kartavyajantaparty.com/#vision): The Anti-Cockroach Stance — rejecting laziness, weaponized hashtags, and sub-nationalism.
+- [Manifesto](https://kartavyajantaparty.com/#manifesto): Four pillars — Governance Blueprint, Duty-Bound Citizenship, Knowledge as Defense, Accountability of Institutions.
+- [Membership](https://kartavyajantaparty.com/#membership): The Builder Standard — four non-negotiable requirements for members.
+- [Whitepapers](https://kartavyajantaparty.com/#whitepapers): Policy library covering examination integrity, regulatory reform, and civic resilience.
+
+## Key Topics
+
+- Indian political party focused on governance blueprints and policy whitepapers
+- Knowledge economy and duty-bound citizenship (Kartavya)
+- National resilience and national integration
+- Anti-corruption through regulatory simplification and technical reforms
+- End-to-end encryption for national examinations
+- Civic education against digital manipulation
+
+## Optional
+
+- [Sitemap](https://kartavyajantaparty.com/sitemap.xml)
+- [Robots](https://kartavyajantaparty.com/robots.txt)

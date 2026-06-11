@@ -8,6 +8,7 @@ import { Whitepapers } from "@/components/kjp/Whitepapers";
 import { CTA } from "@/components/kjp/CTA";
 import { Footer } from "@/components/kjp/Footer";
 import heroImage from "@/assets/hero-parliament.jpg";
+import { absoluteUrl, SITE_URL } from "@/lib/site";
 
 const TITLE = "Kartavya Janta Party (KJP) — Duty Over Rights";
 const DESCRIPTION =
@@ -18,15 +19,15 @@ export const Route = createFileRoute("/")({
     meta: [
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
-      { property: "og:url", content: "/" },
-      { property: "og:image", content: heroImage },
+      { property: "og:url", content: SITE_URL },
+      { property: "og:image", content: absoluteUrl(heroImage) },
       { property: "og:image:alt", content: "Indian Parliament building at golden hour — symbol of the Kartavya Janta Party's commitment to governance." },
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESCRIPTION },
-      { name: "twitter:image", content: heroImage },
+      { name: "twitter:image", content: absoluteUrl(heroImage) },
     ],
     links: [
-      { rel: "canonical", href: "/" },
+      { rel: "canonical", href: SITE_URL },
     ],
     scripts: [
       {
@@ -36,6 +37,8 @@ export const Route = createFileRoute("/")({
           "@type": "PoliticalParty",
           name: "Kartavya Janta Party",
           alternateName: "KJP",
+          url: SITE_URL,
+          logo: absoluteUrl("/favicon-96.png"),
           slogan: "Duty Over Rights. Solutions Over Rants.",
           description: DESCRIPTION,
           areaServed: "IN",
@@ -54,10 +57,11 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "Kartavya Janta Party",
+          url: SITE_URL,
           inLanguage: "en-IN",
           potentialAction: {
             "@type": "ReadAction",
-            target: "/#manifesto",
+            target: `${SITE_URL}/#manifesto`,
           },
         }),
       },

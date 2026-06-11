@@ -1,2 +1,52 @@
 User-agent: *
 Allow: /
+
+# Google Search favicon crawling
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /favicon.ico
+Allow: /favicon-48.png
+Allow: /favicon-96.png
+Allow: /apple-touch-icon.png
+
+# AI assistants and LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+Sitemap: https://kartavyajantaparty.com/sitemap.xml
+
+# Machine-readable site summary for AI assistants
+# https://llmstxt.org/
+# https://kartavyajantaparty.com/llms.txt
